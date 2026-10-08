@@ -46,7 +46,7 @@ Random Forest hyperparameter tuning was also performed using participant-grouped
 
 ## Results
 
-##5-Fold Participant-Grouped Cross-Validation
+## 5-Fold Participant-Grouped Cross-Validation
 
 | Model | MAE ↓ | RMSE ↓ | R² ↑ |
 | --- | ---: | ---: | ---: |
@@ -69,7 +69,7 @@ These results were very similar to the original Random Forest (MAE 6.76, RMSE 8.
 
 ### Feature Importance
 Random Forest feature-importance analysis identified **DFA, HNR, PPE, Jitter(Abs) and RPDE** as the most influential features within the fitted model.
-These importance values should be interpreted cautiously. The Random Forest did not demonstrate strong generalisation to unseen participants and importance within a fitted model does not establish that a feature is independently associated with Parkinson's symptom severity
+These importance values should be interpreted cautiously. The Random Forest did not demonstrate strong generalisation to unseen participants and importance within a fitted model does not establish that a feature is independently associated with Parkinson's symptom severity.
 
 ## Key Findings
 - Individual biomedical voice features generally showed weaker linear relationships with Motor UPDRS.
@@ -87,12 +87,12 @@ These importance values should be interpreted cautiously. The Random Forest did 
 - The models were not externally validated on an independent dataset.
 
 ## Technologies
--Python
--pandas
--NumPy
--Matplotlib
--scikit-learn
--Google Colab
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- schikit-learn
+- Google Colab
 
 ## How to run
 1. Download or clone this repository.
@@ -102,11 +102,8 @@ These importance values should be interpreted cautiously. The Random Forest did 
 5. Run the notebook cells from top to bottom.
 
 ## Repository Structure
-<<<
-parkinsons-voice-severity-prediction/
-├──README.md
-└──parkinsons_voice_prediction(2).ipynb
-<<<
+- 'README.md' - Project overview. methodology, results and instructions.
+- 'parkinsons_voice_prediction(2).ipynb' - Complete data analysis and machine-learning notebook.
 
 ## Furtherwork
 Future work could investigate larger and more diverse participant samples, external validation datasets, alternative machine-learning approaches and models designed specifically for longitudinal data. These approaches could help determine whether changes in voice measurements can contribute to reliable, non-invasive monitoring of Parkinson's motor symptom severity.
