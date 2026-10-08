@@ -98,12 +98,12 @@ These importance values should be interpreted cautiously. The Random Forest did 
 1. Download or clone this repository.
 2. Download the Parkinsons Telemonitoring dataset from the UCI Machine Learning Repository.
 3. Place parkinsons_updrs.data in the same working directory as the notebook.
-4. Open parkinsons_voice_prediction(2).ipynb in Google Colab or Jupyter Notebook.
+4. Open parkinsons_voice_prediction.ipynb in Google Colab or Jupyter Notebook.
 5. Run the notebook cells from top to bottom.
 
 ## Repository Structure
 - 'README.md' - Project overview. methodology, results and instructions.
-- 'parkinsons_voice_prediction(2).ipynb' - Complete data analysis and machine-learning notebook.
+- 'parkinsons_voice_prediction.ipynb' - Complete data analysis and machine-learning notebook.
 
 ## Furtherwork
 Future work could investigate larger and more diverse participant samples, external validation datasets, alternative machine-learning approaches and models designed specifically for longitudinal data. These approaches could help determine whether changes in voice measurements can contribute to reliable, non-invasive monitoring of Parkinson's motor symptom severity.
